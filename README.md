@@ -16,7 +16,7 @@ def hamming_distance(str1: str, str2: str) -> int
 def hamming(str1: str, str2: str) -> float
 ```
 
-> Shorter string is padded dijunctive blanks to apply algorithm.
+> The shorter string is padded with blank symbols to apply the algorithm.
 
 ## Levenshtein
 
@@ -66,7 +66,7 @@ def jaro_winkler(str1: str, str2: str, p: float = 0.1) -> float
 def jaccard(str1: str, str2: str) -> float
 ```
 
-> Set based similarity algorithms use character and index combination to mimic set element identity (`{ (character, index) ∀ c ∈ S₁, S₂ }`).
+> The set based similarity algorithms use character and index combination to mimic set element identity (`{ (character, index) ∀ c ∈ S₁, S₂ }`).
 
 ## Sørensen-Dice
 
